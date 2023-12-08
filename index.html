@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Catálogo de Productos</h1>
+
+    <div id="filters">
+        <label for="category-filter">Filtrar por categoría:</label>
+        <select id="category-filter">
+            <option value="todos">Todos</option>
+            <option value="ropa">Ropa</option>
+            <option value="electronicos">Electronicos</option>
+            <option value="ropa">Ropa</option>
+            <option value="escolar">Escolar</option>
+            <option value="hogar">Hogar</option>
+            <option value="articulosExteriores">Articulos exteriores</option>
+            <option value="mascotas">Mascotas</option>
+            <option value="autos">Autos</option>
+            <option value="niños">Niños</option>
+            <option value="accesoriosCelular">Accesorios Celulares</option>
+        </select>
+
+        <button onclick="sortProducts()">Ordenar por Precio</button>
+    </div>
+
+    <div id="product-list"></div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Aquí puedes agregar estilos personalizados o ajustar configuraciones de Tailwind */
+/* Explicación de Mejora
+La integración de Tailwind CSS mejora la eficiencia del desarrollo al proporcionar 
+un enfoque más rápido para estilizar aplicaciones web. Al utilizar clases utilitarias, 
+se elimina la necesidad de escribir CSS desde cero, lo que acelera el proceso de diseño
+y desarrollo. Además, su flexibilidad y capacidad de personalización permiten ajustarse 
+a las necesidades específicas del proyecto, manteniendo la consistencia visual y reduciendo 
+el tamaño del archivo final. En resumen, Tailwind CSS ofrece una forma más rápida, consistente
+y eficiente de diseñar y estilizar aplicaciones web.

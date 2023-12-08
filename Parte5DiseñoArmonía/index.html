@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Carrito de Compras</h1>
+    </header>
+
+    <div class="cart">
+        <div class="cart-items">
+            <!-- Lista de productos en el carrito -->
+            <div class="cart-item">
+                <img src="img/Camiseta.jpg" alt="Producto 1">
+                <div class="product-details">
+                    <h3>Nombre del Producto 1</h3>
+                    <p>Precio: $19.990</p>
+                    <input type="number" value="1" min="1">
+                    <button class="remove-btn">Eliminar</button>
+                </div>
+            </div>
+            <!-- Repite la estructura para otros productos -->
+        </div>
+
+        <div class="cart-summary">
+            <!-- Resumen del carrito -->
+            <p>Total de productos: <span class="total-items">3</span></p>
+            <p>Costo de envío: $<span class="shipping-cost">5.000</span></p>
+            <h2>Total: $<span class="total-amount">$25.990</span></h2>
+            <button class="clear-btn">Vaciar Carrito</button>
+            <button class="checkout-btn">Proceder al Pago</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
